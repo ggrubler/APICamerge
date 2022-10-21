@@ -8,7 +8,7 @@ using APICamerge.Interfaces;
 
 namespace APICamerge.Controllers
 {
-	public class ShowMeTheCodeController_old : ControllerBase
+	public class ShowMeTheCodeController : ControllerBase
 	{
 		#region Attributes
 
@@ -18,7 +18,7 @@ namespace APICamerge.Controllers
 
 		#region Constructor
 
-		public ShowMeTheCodeController_old(IShowMeTheCodeService showMeTheCodeService)
+		public ShowMeTheCodeController(IShowMeTheCodeService showMeTheCodeService)
 		{
 			ShowMeTheCodeService = showMeTheCodeService;
 		}
