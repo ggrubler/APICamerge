@@ -30,6 +30,11 @@ namespace APICamerge.Controllers
 
         #region Requests
 
+        /// <summary>
+		/// Obtém a taxa de juros indicada pelo usuário.
+		/// </summary>
+		/// <param name="taxaDeJuros">Taxa de juros indicada pelo usuário.</param>
+		/// <returns>Retorna a taxa de juros indicada pelo usuário.</returns>
         [SwaggerResponse((int)HttpStatusCode.OK, Type = typeof(double))]
         [SwaggerResponse((int)HttpStatusCode.NoContent, Type = typeof(Nullable))]
         [HttpGet]

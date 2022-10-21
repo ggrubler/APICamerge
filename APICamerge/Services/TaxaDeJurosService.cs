@@ -16,9 +16,12 @@ namespace APICamerge.Services
 
 		#region Public Methods
 
-		public double GetTaxaDeJuros(double taxaDeJuros)
+		public double? GetTaxaDeJuros(double? taxaDeJuros)
 		{
-			return taxaDeJuros;
+			if (taxaDeJuros < 0) return null;
+
+			else return taxaDeJuros;
+				
 		}
 
 		#endregion

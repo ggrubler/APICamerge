@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICamerge", "APICamerge\APICamerge.csproj", "{24C2F192-6618-459C-96F9-29FF1099C44D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICamerge", "APICamerge\APICamerge.csproj", "{24C2F192-6618-459C-96F9-29FF1099C44D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICamerge.ServiceTests", "APICamerge.ServiceTests\APICamerge.ServiceTests.csproj", "{6C2CB422-699D-4729-83EF-45166F38B513}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{24C2F192-6618-459C-96F9-29FF1099C44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24C2F192-6618-459C-96F9-29FF1099C44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24C2F192-6618-459C-96F9-29FF1099C44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2CB422-699D-4729-83EF-45166F38B513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2CB422-699D-4729-83EF-45166F38B513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2CB422-699D-4729-83EF-45166F38B513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2CB422-699D-4729-83EF-45166F38B513}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

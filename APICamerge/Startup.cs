@@ -39,8 +39,10 @@ namespace APICamerge
 
 			services.AddControllers();
 
+			// Injeção de dependências da camada de Services da API.
 			services.AddScoped<ITaxaDeJurosService, TaxaDeJurosService>();
 			services.AddScoped<ICalculaJurosService, CalculaJurosService>();
+			services.AddScoped<IShowMeTheCodeService, ShowMeTheCodeService>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
