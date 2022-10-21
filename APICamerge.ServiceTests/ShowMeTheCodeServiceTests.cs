@@ -18,7 +18,7 @@ namespace APICamerge.ServiceTests
 
 			string expectedSourceCode = "https://github.com/ggrubler/APICamerge";
 
-			string actualSourceCode = service.GetSourceCode();
+			string actualSourceCode = service.GetUrlSourceCode();
 
 			Assert.Equal(expectedSourceCode, actualSourceCode);
 		}
